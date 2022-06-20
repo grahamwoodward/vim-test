@@ -6,7 +6,7 @@
 "Prevents the plugin from being loaded multiple times. If the loaded
 " variable exists, do nothing more. Otherwise, assign the loaded
 " variable and continue running this instance of the plugin.
-if exists("g:loaded_vim-test")
+if exists("g:loaded_vim_test")
     finish
 endif
 let g:loaded_vim_test = 1
