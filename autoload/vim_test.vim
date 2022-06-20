@@ -1,4 +1,4 @@
-function! vim-test#DisplayTime(...)
+function! vim_test#DisplayTime(...)
     if a:0 > 0 && (a:1 == "d" || a:1 == "t")
         if a:1 == "d"
             echo strftime("%b %d")

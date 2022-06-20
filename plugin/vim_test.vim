@@ -12,5 +12,4 @@ endif
 let g:loaded_vim_test = 1
 "
 " Exposes the plugin's functions for use as commands in Vim.
-command! -nargs=0 DisplayTime call vim-test#DisplayTime()
-" "
+command! -nargs=0 DisplayTime call vim_test#DisplayTime()
